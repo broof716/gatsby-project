@@ -5,8 +5,13 @@
  */
 
 module.exports = {
+   siteMetadata: {
+    title: 'Gatsby Portfolio',
+    author: 'Bryan Roof'
+
+  },
   /* Your site config here */
   plugins: [
     'gatsby-plugin-sass'
-  ],
+  ]
 }
